@@ -39,7 +39,6 @@ class Account(AbstractBaseUser):
     def has_module_perms(self, app_label):
         return True
 
-
     objects = AccountManager()
     USERNAME_FIELD = 'email'
 # Create your models here.
